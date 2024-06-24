@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File Jurnal Umum</title>
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body class="header-home">
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Master Data 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="COA.php">COA</a>
+                <a href="control.php">Control</a>
+                <a href="jurnal-umum.php">Jurnal Umum</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Hasil Data 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="buku-besar.html">Buku Besar</a>
+                <a href="neraca-saldo.html">Neraca Saldo</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Profil 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="profil.php">Profil</a>
+                <a href="#log-out">Log Out</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleResponsive()">&#9776;</a>
+    </div>
+
+    <div class="main-content">
+        <h2>Upload File Jurnal Umum</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" id="file">
+            <button type="button">Pilih File</button>
+            <button type="submit">Upload File</button>
+            <button type="submit">Save/Submit</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
